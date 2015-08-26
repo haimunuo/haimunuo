@@ -1,0 +1,12 @@
+/* 
+  InfoPlist.strings
+  LimitFree
+
+  Created by qianfeng on 15-7-28.
+  Copyright (c) 2015年 轩哥. All rights reserved.
+*/
+//当前InfoPlist.strings文件在系统加载qpp是时 会自动加载，
+//在这里可以设置 显示app包的名字
+//只需要 学成键值对的 key-value c语言的字符串
+
+CFBundleDisplayName=@"爱限免";

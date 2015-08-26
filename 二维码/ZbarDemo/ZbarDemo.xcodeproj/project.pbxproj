@@ -1,0 +1,701 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC7A266B1B78346900C5A8B8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC7A266A1B78346900C5A8B8 /* main.m */; };
+		BC7A266E1B78346900C5A8B8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC7A266D1B78346900C5A8B8 /* AppDelegate.m */; };
+		BC7A26711B78346900C5A8B8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC7A26701B78346900C5A8B8 /* ViewController.m */; };
+		BC7A26741B78346900C5A8B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC7A26721B78346900C5A8B8 /* Main.storyboard */; };
+		BC7A26761B78346900C5A8B8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC7A26751B78346900C5A8B8 /* Images.xcassets */; };
+		BC7A26791B78346900C5A8B8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC7A26771B78346900C5A8B8 /* LaunchScreen.xib */; };
+		BC7A26851B78346900C5A8B8 /* ZbarDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BC7A26841B78346900C5A8B8 /* ZbarDemoTests.m */; };
+		BC7A26CF1B7834B400C5A8B8 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = BC7A268F1B7834B300C5A8B8 /* 1.png */; };
+		BC7A26D01B7834B400C5A8B8 /* bitstream.c in Sources */ = {isa = PBXBuildFile; fileRef = BC7A26A81B7834B300C5A8B8 /* bitstream.c */; };
+		BC7A26D11B7834B400C5A8B8 /* mask.c in Sources */ = {isa = PBXBuildFile; fileRef = BC7A26AA1B7834B300C5A8B8 /* mask.c */; };
+		BC7A26D21B7834B400C5A8B8 /* QRCodeGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = BC7A26AD1B7834B300C5A8B8 /* QRCodeGenerator.m */; };
+		BC7A26D31B7834B400C5A8B8 /* qrencode.c in Sources */ = {isa = PBXBuildFile; fileRef = BC7A26AE1B7834B300C5A8B8 /* qrencode.c */; };
+		BC7A26D41B7834B400C5A8B8 /* qrinput.c in Sources */ = {isa = PBXBuildFile; fileRef = BC7A26B01B7834B300C5A8B8 /* qrinput.c */; };
+		BC7A26D51B7834B400C5A8B8 /* qrspec.c in Sources */ = {isa = PBXBuildFile; fileRef = BC7A26B21B7834B300C5A8B8 /* qrspec.c */; };
+		BC7A26D61B7834B400C5A8B8 /* rscode.c in Sources */ = {isa = PBXBuildFile; fileRef = BC7A26B41B7834B300C5A8B8 /* rscode.c */; };
+		BC7A26D71B7834B400C5A8B8 /* split.c in Sources */ = {isa = PBXBuildFile; fileRef = BC7A26B61B7834B300C5A8B8 /* split.c */; };
+		BC7A26D81B7834B400C5A8B8 /* libzbar.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BC7A26B81B7834B300C5A8B8 /* libzbar.a */; };
+		BC7A26D91B7834B400C5A8B8 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = BC7A26B91B7834B300C5A8B8 /* README.md */; };
+		BC7A26DA1B7834B400C5A8B8 /* zbar-back.png in Resources */ = {isa = PBXBuildFile; fileRef = BC7A26BB1B7834B300C5A8B8 /* zbar-back.png */; };
+		BC7A26DB1B7834B400C5A8B8 /* zbar-help.html in Resources */ = {isa = PBXBuildFile; fileRef = BC7A26BC1B7834B400C5A8B8 /* zbar-help.html */; };
+		BC7A26DC1B7834B400C5A8B8 /* zbar-helpicons.png in Resources */ = {isa = PBXBuildFile; fileRef = BC7A26BD1B7834B400C5A8B8 /* zbar-helpicons.png */; };
+		BC7A26DD1B7834B400C5A8B8 /* zbar-samples.png in Resources */ = {isa = PBXBuildFile; fileRef = BC7A26BE1B7834B400C5A8B8 /* zbar-samples.png */; };
+		BC7A26DE1B7834B400C5A8B8 /* qrcode_scan_bar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC7A26C01B7834B400C5A8B8 /* qrcode_scan_bar@2x.png */; };
+		BC7A26DF1B7834B400C5A8B8 /* qrcode_scan_bg_Green@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC7A26C11B7834B400C5A8B8 /* qrcode_scan_bg_Green@2x.png */; };
+		BC7A26E01B7834B400C5A8B8 /* qrcode_scan_bg_Green_iphone5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC7A26C21B7834B400C5A8B8 /* qrcode_scan_bg_Green_iphone5@2x.png */; };
+		BC7A26E11B7834B400C5A8B8 /* qrcode_scan_btn_flash_down@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC7A26C31B7834B400C5A8B8 /* qrcode_scan_btn_flash_down@2x.png */; };
+		BC7A26E21B7834B400C5A8B8 /* qrcode_scan_btn_flash_nor@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC7A26C41B7834B400C5A8B8 /* qrcode_scan_btn_flash_nor@2x.png */; };
+		BC7A26E31B7834B400C5A8B8 /* qrcode_scan_btn_myqrcode_down@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC7A26C51B7834B400C5A8B8 /* qrcode_scan_btn_myqrcode_down@2x.png */; };
+		BC7A26E41B7834B400C5A8B8 /* qrcode_scan_btn_myqrcode_nor@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC7A26C61B7834B400C5A8B8 /* qrcode_scan_btn_myqrcode_nor@2x.png */; };
+		BC7A26E51B7834B400C5A8B8 /* qrcode_scan_btn_photo_down@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC7A26C71B7834B400C5A8B8 /* qrcode_scan_btn_photo_down@2x.png */; };
+		BC7A26E61B7834B400C5A8B8 /* qrcode_scan_btn_photo_nor@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC7A26C81B7834B400C5A8B8 /* qrcode_scan_btn_photo_nor@2x.png */; };
+		BC7A26E71B7834B400C5A8B8 /* qrcode_scan_btn_scan_off@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC7A26C91B7834B400C5A8B8 /* qrcode_scan_btn_scan_off@2x.png */; };
+		BC7A26E81B7834B400C5A8B8 /* qrcode_scan_light_green@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC7A26CA1B7834B400C5A8B8 /* qrcode_scan_light_green@2x.png */; };
+		BC7A26E91B7834B400C5A8B8 /* qrcode_scan_titlebar_back_nor@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC7A26CB1B7834B400C5A8B8 /* qrcode_scan_titlebar_back_nor@2x.png */; };
+		BC7A26EA1B7834B400C5A8B8 /* qrcode_scan_titlebar_back_pressed@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BC7A26CC1B7834B400C5A8B8 /* qrcode_scan_titlebar_back_pressed@2x.png */; };
+		BC7A26EB1B7834B400C5A8B8 /* ZCZBarViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = BC7A26CE1B7834B400C5A8B8 /* ZCZBarViewController.mm */; };
+		BC7A26ED1B7834EC00C5A8B8 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC7A26EC1B7834EC00C5A8B8 /* AVFoundation.framework */; };
+		BC7A26EF1B7834F800C5A8B8 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC7A26EE1B7834F800C5A8B8 /* CoreMedia.framework */; };
+		BC7A26F11B78350400C5A8B8 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC7A26F01B78350400C5A8B8 /* QuartzCore.framework */; };
+		BC7A26F31B78351900C5A8B8 /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BC7A26F21B78351900C5A8B8 /* libiconv.dylib */; };
+		BC7A26F51B78353100C5A8B8 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC7A26F41B78353100C5A8B8 /* CoreVideo.framework */; };
+		BC7A26F71B78362B00C5A8B8 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = BC7A26F61B78362B00C5A8B8 /* libz.dylib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BC7A267F1B78346900C5A8B8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BC7A265D1B78346800C5A8B8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BC7A26641B78346800C5A8B8;
+			remoteInfo = ZbarDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BC7A26651B78346900C5A8B8 /* ZbarDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZbarDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC7A26691B78346900C5A8B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC7A266A1B78346900C5A8B8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BC7A266C1B78346900C5A8B8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BC7A266D1B78346900C5A8B8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BC7A266F1B78346900C5A8B8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BC7A26701B78346900C5A8B8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BC7A26731B78346900C5A8B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BC7A26751B78346900C5A8B8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		BC7A26781B78346900C5A8B8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		BC7A267E1B78346900C5A8B8 /* ZbarDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZbarDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC7A26831B78346900C5A8B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC7A26841B78346900C5A8B8 /* ZbarDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZbarDemoTests.m; sourceTree = "<group>"; };
+		BC7A268F1B7834B300C5A8B8 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		BC7A26931B7834B300C5A8B8 /* Decoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Decoder.h; sourceTree = "<group>"; };
+		BC7A26941B7834B300C5A8B8 /* Exception.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Exception.h; sourceTree = "<group>"; };
+		BC7A26951B7834B300C5A8B8 /* Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Image.h; sourceTree = "<group>"; };
+		BC7A26961B7834B300C5A8B8 /* ImageScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageScanner.h; sourceTree = "<group>"; };
+		BC7A26971B7834B300C5A8B8 /* Processor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Processor.h; sourceTree = "<group>"; };
+		BC7A26981B7834B300C5A8B8 /* Scanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Scanner.h; sourceTree = "<group>"; };
+		BC7A26991B7834B300C5A8B8 /* Symbol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Symbol.h; sourceTree = "<group>"; };
+		BC7A269A1B7834B300C5A8B8 /* Video.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Video.h; sourceTree = "<group>"; };
+		BC7A269B1B7834B300C5A8B8 /* Window.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Window.h; sourceTree = "<group>"; };
+		BC7A269C1B7834B300C5A8B8 /* zbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = zbar.h; sourceTree = "<group>"; };
+		BC7A269D1B7834B300C5A8B8 /* ZBarCameraSimulator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarCameraSimulator.h; sourceTree = "<group>"; };
+		BC7A269E1B7834B300C5A8B8 /* ZBarCaptureReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarCaptureReader.h; sourceTree = "<group>"; };
+		BC7A269F1B7834B300C5A8B8 /* ZBarHelpController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarHelpController.h; sourceTree = "<group>"; };
+		BC7A26A01B7834B300C5A8B8 /* ZBarImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarImage.h; sourceTree = "<group>"; };
+		BC7A26A11B7834B300C5A8B8 /* ZBarImageScanner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarImageScanner.h; sourceTree = "<group>"; };
+		BC7A26A21B7834B300C5A8B8 /* ZBarReaderController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarReaderController.h; sourceTree = "<group>"; };
+		BC7A26A31B7834B300C5A8B8 /* ZBarReaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarReaderView.h; sourceTree = "<group>"; };
+		BC7A26A41B7834B300C5A8B8 /* ZBarReaderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarReaderViewController.h; sourceTree = "<group>"; };
+		BC7A26A51B7834B300C5A8B8 /* ZBarSDK.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarSDK.h; sourceTree = "<group>"; };
+		BC7A26A61B7834B300C5A8B8 /* ZBarSymbol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZBarSymbol.h; sourceTree = "<group>"; };
+		BC7A26A81B7834B300C5A8B8 /* bitstream.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = bitstream.c; sourceTree = "<group>"; };
+		BC7A26A91B7834B300C5A8B8 /* bitstream.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = bitstream.h; sourceTree = "<group>"; };
+		BC7A26AA1B7834B300C5A8B8 /* mask.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mask.c; sourceTree = "<group>"; };
+		BC7A26AB1B7834B300C5A8B8 /* mask.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mask.h; sourceTree = "<group>"; };
+		BC7A26AC1B7834B300C5A8B8 /* QRCodeGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QRCodeGenerator.h; sourceTree = "<group>"; };
+		BC7A26AD1B7834B300C5A8B8 /* QRCodeGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QRCodeGenerator.m; sourceTree = "<group>"; };
+		BC7A26AE1B7834B300C5A8B8 /* qrencode.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = qrencode.c; sourceTree = "<group>"; };
+		BC7A26AF1B7834B300C5A8B8 /* qrencode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = qrencode.h; sourceTree = "<group>"; };
+		BC7A26B01B7834B300C5A8B8 /* qrinput.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = qrinput.c; sourceTree = "<group>"; };
+		BC7A26B11B7834B300C5A8B8 /* qrinput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = qrinput.h; sourceTree = "<group>"; };
+		BC7A26B21B7834B300C5A8B8 /* qrspec.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = qrspec.c; sourceTree = "<group>"; };
+		BC7A26B31B7834B300C5A8B8 /* qrspec.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = qrspec.h; sourceTree = "<group>"; };
+		BC7A26B41B7834B300C5A8B8 /* rscode.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = rscode.c; sourceTree = "<group>"; };
+		BC7A26B51B7834B300C5A8B8 /* rscode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rscode.h; sourceTree = "<group>"; };
+		BC7A26B61B7834B300C5A8B8 /* split.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = split.c; sourceTree = "<group>"; };
+		BC7A26B71B7834B300C5A8B8 /* split.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = split.h; sourceTree = "<group>"; };
+		BC7A26B81B7834B300C5A8B8 /* libzbar.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libzbar.a; sourceTree = "<group>"; };
+		BC7A26B91B7834B300C5A8B8 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		BC7A26BB1B7834B300C5A8B8 /* zbar-back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zbar-back.png"; sourceTree = "<group>"; };
+		BC7A26BC1B7834B400C5A8B8 /* zbar-help.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = "zbar-help.html"; sourceTree = "<group>"; };
+		BC7A26BD1B7834B400C5A8B8 /* zbar-helpicons.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zbar-helpicons.png"; sourceTree = "<group>"; };
+		BC7A26BE1B7834B400C5A8B8 /* zbar-samples.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "zbar-samples.png"; sourceTree = "<group>"; };
+		BC7A26C01B7834B400C5A8B8 /* qrcode_scan_bar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "qrcode_scan_bar@2x.png"; sourceTree = "<group>"; };
+		BC7A26C11B7834B400C5A8B8 /* qrcode_scan_bg_Green@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "qrcode_scan_bg_Green@2x.png"; sourceTree = "<group>"; };
+		BC7A26C21B7834B400C5A8B8 /* qrcode_scan_bg_Green_iphone5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "qrcode_scan_bg_Green_iphone5@2x.png"; sourceTree = "<group>"; };
+		BC7A26C31B7834B400C5A8B8 /* qrcode_scan_btn_flash_down@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "qrcode_scan_btn_flash_down@2x.png"; sourceTree = "<group>"; };
+		BC7A26C41B7834B400C5A8B8 /* qrcode_scan_btn_flash_nor@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "qrcode_scan_btn_flash_nor@2x.png"; sourceTree = "<group>"; };
+		BC7A26C51B7834B400C5A8B8 /* qrcode_scan_btn_myqrcode_down@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "qrcode_scan_btn_myqrcode_down@2x.png"; sourceTree = "<group>"; };
+		BC7A26C61B7834B400C5A8B8 /* qrcode_scan_btn_myqrcode_nor@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "qrcode_scan_btn_myqrcode_nor@2x.png"; sourceTree = "<group>"; };
+		BC7A26C71B7834B400C5A8B8 /* qrcode_scan_btn_photo_down@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "qrcode_scan_btn_photo_down@2x.png"; sourceTree = "<group>"; };
+		BC7A26C81B7834B400C5A8B8 /* qrcode_scan_btn_photo_nor@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "qrcode_scan_btn_photo_nor@2x.png"; sourceTree = "<group>"; };
+		BC7A26C91B7834B400C5A8B8 /* qrcode_scan_btn_scan_off@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "qrcode_scan_btn_scan_off@2x.png"; sourceTree = "<group>"; };
+		BC7A26CA1B7834B400C5A8B8 /* qrcode_scan_light_green@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "qrcode_scan_light_green@2x.png"; sourceTree = "<group>"; };
+		BC7A26CB1B7834B400C5A8B8 /* qrcode_scan_titlebar_back_nor@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "qrcode_scan_titlebar_back_nor@2x.png"; sourceTree = "<group>"; };
+		BC7A26CC1B7834B400C5A8B8 /* qrcode_scan_titlebar_back_pressed@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "qrcode_scan_titlebar_back_pressed@2x.png"; sourceTree = "<group>"; };
+		BC7A26CD1B7834B400C5A8B8 /* ZCZBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCZBarViewController.h; sourceTree = "<group>"; };
+		BC7A26CE1B7834B400C5A8B8 /* ZCZBarViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = ZCZBarViewController.mm; sourceTree = "<group>"; };
+		BC7A26EC1B7834EC00C5A8B8 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		BC7A26EE1B7834F800C5A8B8 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		BC7A26F01B78350400C5A8B8 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		BC7A26F21B78351900C5A8B8 /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
+		BC7A26F41B78353100C5A8B8 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		BC7A26F61B78362B00C5A8B8 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC7A26621B78346800C5A8B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC7A26F71B78362B00C5A8B8 /* libz.dylib in Frameworks */,
+				BC7A26F51B78353100C5A8B8 /* CoreVideo.framework in Frameworks */,
+				BC7A26F31B78351900C5A8B8 /* libiconv.dylib in Frameworks */,
+				BC7A26F11B78350400C5A8B8 /* QuartzCore.framework in Frameworks */,
+				BC7A26EF1B7834F800C5A8B8 /* CoreMedia.framework in Frameworks */,
+				BC7A26ED1B7834EC00C5A8B8 /* AVFoundation.framework in Frameworks */,
+				BC7A26D81B7834B400C5A8B8 /* libzbar.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC7A267B1B78346900C5A8B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC7A265C1B78346800C5A8B8 = {
+			isa = PBXGroup;
+			children = (
+				BC7A26F61B78362B00C5A8B8 /* libz.dylib */,
+				BC7A26F41B78353100C5A8B8 /* CoreVideo.framework */,
+				BC7A26F21B78351900C5A8B8 /* libiconv.dylib */,
+				BC7A26F01B78350400C5A8B8 /* QuartzCore.framework */,
+				BC7A26EE1B7834F800C5A8B8 /* CoreMedia.framework */,
+				BC7A26EC1B7834EC00C5A8B8 /* AVFoundation.framework */,
+				BC7A26671B78346900C5A8B8 /* ZbarDemo */,
+				BC7A26811B78346900C5A8B8 /* ZbarDemoTests */,
+				BC7A26661B78346900C5A8B8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC7A26661B78346900C5A8B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC7A26651B78346900C5A8B8 /* ZbarDemo.app */,
+				BC7A267E1B78346900C5A8B8 /* ZbarDemoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC7A26671B78346900C5A8B8 /* ZbarDemo */ = {
+			isa = PBXGroup;
+			children = (
+				BC7A268E1B7834B300C5A8B8 /* ZBarSDK */,
+				BC7A266C1B78346900C5A8B8 /* AppDelegate.h */,
+				BC7A266D1B78346900C5A8B8 /* AppDelegate.m */,
+				BC7A266F1B78346900C5A8B8 /* ViewController.h */,
+				BC7A26701B78346900C5A8B8 /* ViewController.m */,
+				BC7A26F81B7837BC00C5A8B8 /* New Group */,
+				BC7A26721B78346900C5A8B8 /* Main.storyboard */,
+				BC7A26751B78346900C5A8B8 /* Images.xcassets */,
+				BC7A26771B78346900C5A8B8 /* LaunchScreen.xib */,
+				BC7A26681B78346900C5A8B8 /* Supporting Files */,
+			);
+			path = ZbarDemo;
+			sourceTree = "<group>";
+		};
+		BC7A26681B78346900C5A8B8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC7A26691B78346900C5A8B8 /* Info.plist */,
+				BC7A266A1B78346900C5A8B8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BC7A26811B78346900C5A8B8 /* ZbarDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				BC7A26841B78346900C5A8B8 /* ZbarDemoTests.m */,
+				BC7A26821B78346900C5A8B8 /* Supporting Files */,
+			);
+			path = ZbarDemoTests;
+			sourceTree = "<group>";
+		};
+		BC7A26821B78346900C5A8B8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC7A26831B78346900C5A8B8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BC7A268E1B7834B300C5A8B8 /* ZBarSDK */ = {
+			isa = PBXGroup;
+			children = (
+				BC7A268F1B7834B300C5A8B8 /* 1.png */,
+				BC7A26901B7834B300C5A8B8 /* Headers */,
+				BC7A26A71B7834B300C5A8B8 /* libqrencode */,
+				BC7A26B81B7834B300C5A8B8 /* libzbar.a */,
+				BC7A26B91B7834B300C5A8B8 /* README.md */,
+				BC7A26BA1B7834B300C5A8B8 /* Resources */,
+				BC7A26CD1B7834B400C5A8B8 /* ZCZBarViewController.h */,
+				BC7A26CE1B7834B400C5A8B8 /* ZCZBarViewController.mm */,
+			);
+			path = ZBarSDK;
+			sourceTree = "<group>";
+		};
+		BC7A26901B7834B300C5A8B8 /* Headers */ = {
+			isa = PBXGroup;
+			children = (
+				BC7A26911B7834B300C5A8B8 /* ZBarSDK */,
+			);
+			path = Headers;
+			sourceTree = "<group>";
+		};
+		BC7A26911B7834B300C5A8B8 /* ZBarSDK */ = {
+			isa = PBXGroup;
+			children = (
+				BC7A26921B7834B300C5A8B8 /* zbar */,
+				BC7A269C1B7834B300C5A8B8 /* zbar.h */,
+				BC7A269D1B7834B300C5A8B8 /* ZBarCameraSimulator.h */,
+				BC7A269E1B7834B300C5A8B8 /* ZBarCaptureReader.h */,
+				BC7A269F1B7834B300C5A8B8 /* ZBarHelpController.h */,
+				BC7A26A01B7834B300C5A8B8 /* ZBarImage.h */,
+				BC7A26A11B7834B300C5A8B8 /* ZBarImageScanner.h */,
+				BC7A26A21B7834B300C5A8B8 /* ZBarReaderController.h */,
+				BC7A26A31B7834B300C5A8B8 /* ZBarReaderView.h */,
+				BC7A26A41B7834B300C5A8B8 /* ZBarReaderViewController.h */,
+				BC7A26A51B7834B300C5A8B8 /* ZBarSDK.h */,
+				BC7A26A61B7834B300C5A8B8 /* ZBarSymbol.h */,
+			);
+			path = ZBarSDK;
+			sourceTree = "<group>";
+		};
+		BC7A26921B7834B300C5A8B8 /* zbar */ = {
+			isa = PBXGroup;
+			children = (
+				BC7A26931B7834B300C5A8B8 /* Decoder.h */,
+				BC7A26941B7834B300C5A8B8 /* Exception.h */,
+				BC7A26951B7834B300C5A8B8 /* Image.h */,
+				BC7A26961B7834B300C5A8B8 /* ImageScanner.h */,
+				BC7A26971B7834B300C5A8B8 /* Processor.h */,
+				BC7A26981B7834B300C5A8B8 /* Scanner.h */,
+				BC7A26991B7834B300C5A8B8 /* Symbol.h */,
+				BC7A269A1B7834B300C5A8B8 /* Video.h */,
+				BC7A269B1B7834B300C5A8B8 /* Window.h */,
+			);
+			path = zbar;
+			sourceTree = "<group>";
+		};
+		BC7A26A71B7834B300C5A8B8 /* libqrencode */ = {
+			isa = PBXGroup;
+			children = (
+				BC7A26A81B7834B300C5A8B8 /* bitstream.c */,
+				BC7A26A91B7834B300C5A8B8 /* bitstream.h */,
+				BC7A26AA1B7834B300C5A8B8 /* mask.c */,
+				BC7A26AB1B7834B300C5A8B8 /* mask.h */,
+				BC7A26AC1B7834B300C5A8B8 /* QRCodeGenerator.h */,
+				BC7A26AD1B7834B300C5A8B8 /* QRCodeGenerator.m */,
+				BC7A26AE1B7834B300C5A8B8 /* qrencode.c */,
+				BC7A26AF1B7834B300C5A8B8 /* qrencode.h */,
+				BC7A26B01B7834B300C5A8B8 /* qrinput.c */,
+				BC7A26B11B7834B300C5A8B8 /* qrinput.h */,
+				BC7A26B21B7834B300C5A8B8 /* qrspec.c */,
+				BC7A26B31B7834B300C5A8B8 /* qrspec.h */,
+				BC7A26B41B7834B300C5A8B8 /* rscode.c */,
+				BC7A26B51B7834B300C5A8B8 /* rscode.h */,
+				BC7A26B61B7834B300C5A8B8 /* split.c */,
+				BC7A26B71B7834B300C5A8B8 /* split.h */,
+			);
+			path = libqrencode;
+			sourceTree = "<group>";
+		};
+		BC7A26BA1B7834B300C5A8B8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BC7A26BB1B7834B300C5A8B8 /* zbar-back.png */,
+				BC7A26BC1B7834B400C5A8B8 /* zbar-help.html */,
+				BC7A26BD1B7834B400C5A8B8 /* zbar-helpicons.png */,
+				BC7A26BE1B7834B400C5A8B8 /* zbar-samples.png */,
+				BC7A26BF1B7834B400C5A8B8 /* ZbarImage */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		BC7A26BF1B7834B400C5A8B8 /* ZbarImage */ = {
+			isa = PBXGroup;
+			children = (
+				BC7A26C01B7834B400C5A8B8 /* qrcode_scan_bar@2x.png */,
+				BC7A26C11B7834B400C5A8B8 /* qrcode_scan_bg_Green@2x.png */,
+				BC7A26C21B7834B400C5A8B8 /* qrcode_scan_bg_Green_iphone5@2x.png */,
+				BC7A26C31B7834B400C5A8B8 /* qrcode_scan_btn_flash_down@2x.png */,
+				BC7A26C41B7834B400C5A8B8 /* qrcode_scan_btn_flash_nor@2x.png */,
+				BC7A26C51B7834B400C5A8B8 /* qrcode_scan_btn_myqrcode_down@2x.png */,
+				BC7A26C61B7834B400C5A8B8 /* qrcode_scan_btn_myqrcode_nor@2x.png */,
+				BC7A26C71B7834B400C5A8B8 /* qrcode_scan_btn_photo_down@2x.png */,
+				BC7A26C81B7834B400C5A8B8 /* qrcode_scan_btn_photo_nor@2x.png */,
+				BC7A26C91B7834B400C5A8B8 /* qrcode_scan_btn_scan_off@2x.png */,
+				BC7A26CA1B7834B400C5A8B8 /* qrcode_scan_light_green@2x.png */,
+				BC7A26CB1B7834B400C5A8B8 /* qrcode_scan_titlebar_back_nor@2x.png */,
+				BC7A26CC1B7834B400C5A8B8 /* qrcode_scan_titlebar_back_pressed@2x.png */,
+			);
+			path = ZbarImage;
+			sourceTree = "<group>";
+		};
+		BC7A26F81B7837BC00C5A8B8 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "New Group";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC7A26641B78346800C5A8B8 /* ZbarDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC7A26881B78346900C5A8B8 /* Build configuration list for PBXNativeTarget "ZbarDemo" */;
+			buildPhases = (
+				BC7A26611B78346800C5A8B8 /* Sources */,
+				BC7A26621B78346800C5A8B8 /* Frameworks */,
+				BC7A26631B78346800C5A8B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZbarDemo;
+			productName = ZbarDemo;
+			productReference = BC7A26651B78346900C5A8B8 /* ZbarDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BC7A267D1B78346900C5A8B8 /* ZbarDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC7A268B1B78346900C5A8B8 /* Build configuration list for PBXNativeTarget "ZbarDemoTests" */;
+			buildPhases = (
+				BC7A267A1B78346900C5A8B8 /* Sources */,
+				BC7A267B1B78346900C5A8B8 /* Frameworks */,
+				BC7A267C1B78346900C5A8B8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC7A26801B78346900C5A8B8 /* PBXTargetDependency */,
+			);
+			name = ZbarDemoTests;
+			productName = ZbarDemoTests;
+			productReference = BC7A267E1B78346900C5A8B8 /* ZbarDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC7A265D1B78346800C5A8B8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = ZKK;
+				TargetAttributes = {
+					BC7A26641B78346800C5A8B8 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					BC7A267D1B78346900C5A8B8 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = BC7A26641B78346800C5A8B8;
+					};
+				};
+			};
+			buildConfigurationList = BC7A26601B78346800C5A8B8 /* Build configuration list for PBXProject "ZbarDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BC7A265C1B78346800C5A8B8;
+			productRefGroup = BC7A26661B78346900C5A8B8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC7A26641B78346800C5A8B8 /* ZbarDemo */,
+				BC7A267D1B78346900C5A8B8 /* ZbarDemoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC7A26631B78346800C5A8B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC7A26741B78346900C5A8B8 /* Main.storyboard in Resources */,
+				BC7A26CF1B7834B400C5A8B8 /* 1.png in Resources */,
+				BC7A26791B78346900C5A8B8 /* LaunchScreen.xib in Resources */,
+				BC7A26DE1B7834B400C5A8B8 /* qrcode_scan_bar@2x.png in Resources */,
+				BC7A26E31B7834B400C5A8B8 /* qrcode_scan_btn_myqrcode_down@2x.png in Resources */,
+				BC7A26E01B7834B400C5A8B8 /* qrcode_scan_bg_Green_iphone5@2x.png in Resources */,
+				BC7A26E11B7834B400C5A8B8 /* qrcode_scan_btn_flash_down@2x.png in Resources */,
+				BC7A26DF1B7834B400C5A8B8 /* qrcode_scan_bg_Green@2x.png in Resources */,
+				BC7A26E21B7834B400C5A8B8 /* qrcode_scan_btn_flash_nor@2x.png in Resources */,
+				BC7A26E51B7834B400C5A8B8 /* qrcode_scan_btn_photo_down@2x.png in Resources */,
+				BC7A26E41B7834B400C5A8B8 /* qrcode_scan_btn_myqrcode_nor@2x.png in Resources */,
+				BC7A26E71B7834B400C5A8B8 /* qrcode_scan_btn_scan_off@2x.png in Resources */,
+				BC7A26761B78346900C5A8B8 /* Images.xcassets in Resources */,
+				BC7A26DD1B7834B400C5A8B8 /* zbar-samples.png in Resources */,
+				BC7A26DB1B7834B400C5A8B8 /* zbar-help.html in Resources */,
+				BC7A26E91B7834B400C5A8B8 /* qrcode_scan_titlebar_back_nor@2x.png in Resources */,
+				BC7A26EA1B7834B400C5A8B8 /* qrcode_scan_titlebar_back_pressed@2x.png in Resources */,
+				BC7A26E61B7834B400C5A8B8 /* qrcode_scan_btn_photo_nor@2x.png in Resources */,
+				BC7A26E81B7834B400C5A8B8 /* qrcode_scan_light_green@2x.png in Resources */,
+				BC7A26DA1B7834B400C5A8B8 /* zbar-back.png in Resources */,
+				BC7A26DC1B7834B400C5A8B8 /* zbar-helpicons.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC7A267C1B78346900C5A8B8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC7A26611B78346800C5A8B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC7A26D11B7834B400C5A8B8 /* mask.c in Sources */,
+				BC7A26D51B7834B400C5A8B8 /* qrspec.c in Sources */,
+				BC7A26711B78346900C5A8B8 /* ViewController.m in Sources */,
+				BC7A26EB1B7834B400C5A8B8 /* ZCZBarViewController.mm in Sources */,
+				BC7A26D61B7834B400C5A8B8 /* rscode.c in Sources */,
+				BC7A266E1B78346900C5A8B8 /* AppDelegate.m in Sources */,
+				BC7A266B1B78346900C5A8B8 /* main.m in Sources */,
+				BC7A26D91B7834B400C5A8B8 /* README.md in Sources */,
+				BC7A26D31B7834B400C5A8B8 /* qrencode.c in Sources */,
+				BC7A26D41B7834B400C5A8B8 /* qrinput.c in Sources */,
+				BC7A26D71B7834B400C5A8B8 /* split.c in Sources */,
+				BC7A26D01B7834B400C5A8B8 /* bitstream.c in Sources */,
+				BC7A26D21B7834B400C5A8B8 /* QRCodeGenerator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC7A267A1B78346900C5A8B8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC7A26851B78346900C5A8B8 /* ZbarDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BC7A26801B78346900C5A8B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BC7A26641B78346800C5A8B8 /* ZbarDemo */;
+			targetProxy = BC7A267F1B78346900C5A8B8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BC7A26721B78346900C5A8B8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC7A26731B78346900C5A8B8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BC7A26771B78346900C5A8B8 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC7A26781B78346900C5A8B8 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC7A26861B78346900C5A8B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BC7A26871B78346900C5A8B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC7A26891B78346900C5A8B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZbarDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ZbarDemo/ZBarSDK",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BC7A268A1B78346900C5A8B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZbarDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ZbarDemo/ZBarSDK",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BC7A268C1B78346900C5A8B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ZbarDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZbarDemo.app/ZbarDemo";
+			};
+			name = Debug;
+		};
+		BC7A268D1B78346900C5A8B8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ZbarDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZbarDemo.app/ZbarDemo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC7A26601B78346800C5A8B8 /* Build configuration list for PBXProject "ZbarDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC7A26861B78346900C5A8B8 /* Debug */,
+				BC7A26871B78346900C5A8B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC7A26881B78346900C5A8B8 /* Build configuration list for PBXNativeTarget "ZbarDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC7A26891B78346900C5A8B8 /* Debug */,
+				BC7A268A1B78346900C5A8B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BC7A268B1B78346900C5A8B8 /* Build configuration list for PBXNativeTarget "ZbarDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC7A268C1B78346900C5A8B8 /* Debug */,
+				BC7A268D1B78346900C5A8B8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC7A265D1B78346800C5A8B8 /* Project object */;
+}
